@@ -1,0 +1,50 @@
+#autocomplete{
+    border:1px solid;
+    overflow:hidden;
+    position:absolute;
+    z-index:100;}
+
+
+#autocomplete ul{
+    list-style:none;
+    list-style-image:none;
+    margin:0;
+    padding:0;}
+
+
+#autocomplete li{
+    background:#fff;
+    color:#000;
+    cursor:default;
+    white-space:pre;zoom:1;}
+
+
+body.drag{
+    cursor:move;}
+
+
+div.indentation{
+    float:left;
+    height:1.7em;
+    margin:-0.4em 0.2em -0.4em -0.4em;
+    padding:0.42em 0 0.42em 0.6em;
+    width:20px;}
+
+
+.element-hidden{
+    display:none;}
+
+
+.element-invisible{
+    position:absolute !important;
+    clip:rect(1px 1px 1px 1px);
+    clip:rect(1px,1px,1px,1px);
+    overflow:hidden;
+    height:1px;}
+
+
+.element-invisible.element-focusable:active, .element-invisible.element-focusable:focus{
+    position:static !important;
+    clip:auto;
+    overflow:visible;
+    height:auto;}

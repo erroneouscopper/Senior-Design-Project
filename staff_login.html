@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- Tab will show FabLab icon (shortcut icon) -->
+        <link rel="shortcut icon" href="http://fablab.uta.edu/sites/default/files/FabLab_Favicon.png" type="image/png">
+        <!-- Title name of website on the tab -->
+        <title>Staff Login | UTA Fablab</title>
+        
+        <link type="text/css" rel="stylesheet" href="style1.css" media="all" />
+        <link type="text/css" rel="stylesheet" href="style2.css" media="all" />
+        <link type="text/css" rel="stylesheet" href="style3.css" media="all" />
+        <link type="text/css" rel="stylesheet" href="style4.css" media="all" />
+        
+    </head>
+    
+    
+    <body class="html not-front not-logged-in no-sidebars page-user">
+        <div id="skip-link">
+            <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+        </div>
+        
+        <section class="main-container container-fluid">
+            <div class="col-sm-offset-2 col-sm-10 col-xs-offset-1" id="internal-page-push">
+                <h2 class="element-invisible">Primary tabs</h2>
+                <ul class="tabs--primary nav nav-tabs">
+                    <li class="active">
+                        <a href="/user" class="active">Staff Log in<span class="element-invisible">(active tab)</span></a></li>
+                        
+                </ul>
+            </div>
+
+            <div id="uta-logo">
+                <div id="uta-logo-img">
+                    <a href="http://www.uta.edu/">
+                        <img src="/scanners/UTAlogo.png" alt="The University of Texas at Arlington" /></a>
+                </div>
+            </div>
+            
+            <header id="navbar" role="banner" class="navbar container-fluid navbar-default">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                      <a class="logo navbar-btn pull-left" href="/" title="Home">
+                      <img src="http://fablab.uta.edu/sites/default/files/FLlogo_260.png" alt="Home">
+                      </a>
+                      
+                  </div>
+                  <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+                  
+                  <div class="navbar-collapse collapse">
+                    <nav role="navigation"></nav>
+                  </div>
+                </div>
+            </header>
+            
+            <section id="messages">
+                <a id="main-content"></a>
+            </section>
+            
+            <div class="row">
+                <div class="col-sm-offset-2 col-sm-7 col-xs-10 col-xs-offset-1">
+                    <header role="banner" id="page-header">
+                        <h1 class="page-header">Employee account</h1>
+                    </header>
+                </div>
+            </div>
+            
+            
+            `<div class="row">
+                <div class="col-md-offset-2 col-md-7 col-sm-offset-2 col-sm-7 col-xs-10 col-xs-offset-1">
+                    <div class="region region-content well">
+                        <section id="block-system-main" class="block block-system clearfix">
+                            <form action="/scanners/actionLogin.php" method="post" id="user-login" accept-charset="UTF-8">
+
+                                <div>
+                                    <div class="form-item form-item-name form-type-textfield form-group">
+                                    	
+                                        <label class="control-label" for="edit-name">Username <span class="form-required" title="This field is required.">*</span>
+                                        </label>
+                                        <input class="form-control form-text required" title="" data-toggle="tooltip" type="text" id="edit-name" name="name" value="" size="60" maxlength="60" data-original-title="Enter your UTA FabLab username.">
+                                    </div>
+                                    <div class="form-item form-item-pass form-type-password form-group">
+                                        <label class="control-label" for="edit-pass">Password <span class="form-required" title="This field is required.">*</span>
+                                        </label>
+                                        <input class="form-control form-text required" title="" data-toggle="tooltip" type="password" id="edit-pass" name="pass" size="60" maxlength="128" data-original-title="Enter the password that accompanies your username.">
+                                    </div>
+                                    <input type="hidden" name="form_build_id" value="form-EOqErTyv2ZzOrf5X6_Ub0k5tsPIB97L_VAAxc0klx7k">
+                                    <input type="hidden" name="form_id" value="user_login">
+                                    <div class="form-actions form-wrapper form-group" id="edit-actions">
+                                        <button type="submit" id="edit-submit" name="op" value="Log in" class="btn btn-primary form-submit icon-before" formaction="/Scanners/actionLogin.php">
+                                            <span class="icon glyphicon glyphicon-log-in" aria-hidden="true"></span> Log in
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </section>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+        
+        
+        
+    </body>
+
+</html>
